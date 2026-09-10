@@ -1,101 +1,12 @@
-<!DOCTYPE html>
-<html lang="en" class="dark">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>MADXROHITBIHAR</title>
-    <meta name="description" content="Premium Education Portal by MADXROHITBIHAR">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <script>
-        tailwind.config = {
-            darkMode: 'class',
-            theme: {
-                extend: {
-                    colors: {
-                        darkbg: '#000000',
-                        cardbg: '#0a0a0a',
-                        cardfooter: '#111111'
-                    }
-                }
-            }
-        }
-    </script>
-</head>
-<body class="bg-black text-white antialiased select-none pb-20">
-    <div class="min-h-screen bg-black text-white pb-20">
-        <!-- Navbar -->
-        <nav class="fixed top-0 w-full z-50 bg-black/90 backdrop-blur-md border-b border-white/10 h-16 flex items-center px-4 justify-between">
-            <div class="flex items-center gap-3">
-                <div class="w-10 h-10 rounded-xl bg-indigo-600 flex items-center justify-center shadow-lg shadow-indigo-500/30">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-white"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"></path></svg>
-                </div>
-                <div class="flex flex-col">
-                    <h1 class="text-lg font-black tracking-wide text-white leading-none">MADX<span class="text-indigo-500">ROHIT</span></h1>
-                    <span class="text-[10px] font-bold text-gray-400 tracking-[0.2em]">MADXROHITBIHAR</span>
-                </div>
-            </div>
-            <div class="w-10 h-10 rounded-full border border-white/20 p-0.5 overflow-hidden">
-                <img src="https://i.postimg.cc/x1VgvmND/appsdv.jpg" class="w-full h-full rounded-full object-cover" alt="Developer">
-            </div>
-        </nav>
-
-        <!-- Main Content -->
-        <main class="pt-20 px-4 max-w-4xl mx-auto">
-            <!-- Search Bar -->
-            <div class="relative mb-6">
-                <input type="text" placeholder="Search Batches..." class="w-full bg-[#111] border border-white/10 rounded-2xl p-4 pl-12 text-lg font-medium outline-none focus:border-indigo-500 transition-colors text-white">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="absolute left-4 top-4 text-gray-500 w-6 h-6"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg>
-            </div>
-
-            <h2 class="text-xl font-bold text-white mb-4 flex items-center gap-2">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-yellow-500"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg> 
-                All Batches (4722)
-            </h2>
-
-            <!-- Batches Grid -->
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
-                <!-- Card 1 -->
-                <div class="bg-[#0a0a0a] border border-white/5 rounded-3xl overflow-hidden shadow-xl">
-                    <div class="h-44 w-full relative">
-                        <img src="https://i.postimg.cc/x1VgvmND/appsdv.jpg" class="w-full h-full object-cover">
-                        <div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent"></div>
-                        <div class="absolute bottom-3 left-4 right-4">
-                            <span class="bg-indigo-600/90 text-white text-[10px] font-bold px-2 py-1 rounded-md mb-2 inline-block">ID: 6165</span>
-                            <h3 class="font-bold text-lg leading-tight line-clamp-2">LD Lectures</h3>
-                        </div>
-                        <button class="absolute top-3 right-3 w-10 h-10 bg-black/40 backdrop-blur-md rounded-full flex items-center justify-center text-white">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></svg>
-                        </button>
-                    </div>
-                    <div class="p-4 flex justify-between items-center bg-[#111]">
-                        <span class="text-xs text-gray-400">By MADXROHITBIHAR</span>
-                        <span class="text-xs font-bold text-green-400">ACTIVE</span>
-                    </div>
-                </div>
-
-                <!-- Card 2 -->
-                <div class="bg-[#0a0a0a] border border-white/5 rounded-3xl overflow-hidden shadow-xl">
-                    <div class="h-44 w-full relative">
-                        <img src="https://i.postimg.cc/x1VgvmND/appsdv.jpg" class="w-full h-full object-cover">
-                        <div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent"></div>
-                        <div class="absolute bottom-3 left-4 right-4">
-                            <span class="bg-indigo-600/90 text-white text-[10px] font-bold px-2 py-1 rounded-md mb-2 inline-block">ID: 6161</span>
-                            <h3 class="font-bold text-lg leading-tight line-clamp-2">Parakh-2 UPPCS Mains Test Series</h3>
-                        </div>
-                        <button class="absolute top-3 right-3 w-10 h-10 bg-black/40 backdrop-blur-md rounded-full flex items-center justify-center text-white">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></svg>
-                        </button>
-                    </div>
-                    <div class="p-4 flex justify-between items-center bg-[#111]">
-                        <span class="text-xs text-gray-400">By MADXROHITBIHAR</span>
-                        <span class="text-xs font-bold text-green-400">ACTIVE</span>
-                    </div>
-                </div>
-            </div>
-
-            <button class="w-full mt-8 py-4 rounded-2xl bg-[#111] border border-white/10 text-gray-400 font-bold active:bg-[#222]">Load More Batches</button>
-        </main>
-    </div>
-</body>
-</html>
+<!DOCTYPE html><html lang="en" class="dark"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"><link rel="preload" href="fonts/7b0b24f36b1a6d0b-s.p.woff2" as="font" crossorigin="" type="font/woff2"><link rel="preload" as="image" href="https://i.postimg.cc/x1VgvmND/appsdv.jpg"><link rel="stylesheet" href="css/0a3bb3469bc16dc7.css" crossorigin="" data-precedence="next"><meta name="theme-color" content="#000000"><title>MADXROHITBIHAR</title><meta name="description" content="Premium Education Portal by MADXROHITBIHAR"><link rel="manifest" href="/manifest.json"><link rel="apple-touch-icon" href="/icon-192.png"></head><body class="__className_ed3508 bg-black text-white antialiased select-none"><div class="min-h-screen bg-black text-white pb-20"><nav class="fixed top-0 w-full z-50 bg-[#000000]/90 backdrop-blur-md border-b border-white/10 h-16 flex items-center px-4 justify-between safe-area-top"><div class="flex items-center gap-3"><div class="w-10 h-10 rounded-xl bg-indigo-600 flex items-center justify-center shadow-lg shadow-indigo-500/30"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield w-6 h-6 text-white"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"></path></svg></div><div class="flex flex-col"><h1 class="text-lg font-black tracking-wide text-white leading-none">MADX<span class="text-indigo-500">ROHIT</span></h1><span class="text-[10px] font-bold text-gray-400 tracking-[0.2em]">MADXROHITBIHAR</span></div></div><a href="/developer"><div class="w-10 h-10 rounded-full border border-white/20 p-0.5"><img src="https://i.postimg.cc/x1VgvmND/appsdv.jpg" class="w-full h-full rounded-full object-cover" alt="Developer"></div></a></nav><main class="pt-20 px-4"><div class="relative mb-6"><input type="text" placeholder="Search Batches..." class="w-full bg-[#111] border border-white/10 rounded-2xl p-4 pl-12 text-lg font-medium outline-none focus:border-indigo-500 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search absolute left-4 top-4 text-gray-500 w-6 h-6"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg></div><h2 class="text-xl font-bold text-white mb-4 flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap w-6 h-6 text-yellow-500"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg> All Batches (<!-- -->4722<!-- -->)</h2><div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+<a href="/course/6165"><div class="bg-[#0a0a0a] border border-white/5 rounded-3xl overflow-hidden active:scale-95 transition-transform duration-200 shadow-xl"><div class="h-44 w-full relative"><img src="https://i.postimg.cc/x1VgvmND/appsdv.jpg" class="w-full h-full object-cover"><div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent"></div><div class="absolute bottom-3 left-4 right-4"><span class="bg-indigo-600/90 text-white text-[10px] font-bold px-2 py-1 rounded-md mb-2 inline-block">ID: <!-- -->6165</span><h3 class="font-bold text-lg leading-tight line-clamp-2">LD Lectures</h3></div></div><div class="p-4 flex justify-between items-center bg-[#111]"><span class="text-xs text-gray-400">By MADXROHITBIHAR</span><span class="text-xs font-bold text-green-400">ACTIVE</span></div></div></a>
+<a href="/course/6161"><div class="bg-[#0a0a0a] border border-white/5 rounded-3xl overflow-hidden active:scale-95 transition-transform duration-200 shadow-xl"><div class="h-44 w-full relative"><img src="https://i.postimg.cc/x1VgvmND/appsdv.jpg" class="w-full h-full object-cover"><div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent"></div><div class="absolute bottom-3 left-4 right-4"><span class="bg-indigo-600/90 text-white text-[10px] font-bold px-2 py-1 rounded-md mb-2 inline-block">ID: <!-- -->6161</span><h3 class="font-bold text-lg leading-tight line-clamp-2">Parakh-2 UPPCS Mains Test Series</h3></div></div><div class="p-4 flex justify-between items-center bg-[#111]"><span class="text-xs text-gray-400">By MADXROHITBIHAR</span><span class="text-xs font-bold text-green-400">ACTIVE</span></div></div></a>
+<a href="/course/6160"><div class="bg-[#0a0a0a] border border-white/5 rounded-3xl overflow-hidden active:scale-95 transition-transform duration-200 shadow-xl"><div class="h-44 w-full relative"><img src="https://i.postimg.cc/x1VgvmND/appsdv.jpg" class="w-full h-full object-cover"><div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent"></div><div class="absolute bottom-3 left-4 right-4"><span class="bg-indigo-600/90 text-white text-[10px] font-bold px-2 py-1 rounded-md mb-2 inline-block">ID: <!-- -->6160</span><h3 class="font-bold text-lg leading-tight line-clamp-2">AIBE 21 Foundation Hindi Batch</h3></div></div><div class="p-4 flex justify-between items-center bg-[#111]"><span class="text-xs text-gray-400">By MADXROHITBIHAR</span><span class="text-xs font-bold text-green-400">ACTIVE</span></div></div></a>
+<a href="/course/6159"><div class="bg-[#0a0a0a] border border-white/5 rounded-3xl overflow-hidden active:scale-95 transition-transform duration-200 shadow-xl"><div class="h-44 w-full relative"><img src="https://i.postimg.cc/x1VgvmND/appsdv.jpg" class="w-full h-full object-cover"><div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent"></div><div class="absolute bottom-3 left-4 right-4"><span class="bg-indigo-600/90 text-white text-[10px] font-bold px-2 py-1 rounded-md mb-2 inline-block">ID: <!-- -->6159</span><h3 class="font-bold text-lg leading-tight line-clamp-2">AIBE 21 Foundation Batch</h3></div></div><div class="p-4 flex justify-between items-center bg-[#111]"><span class="text-xs text-gray-400">By MADXROHITBIHAR</span><span class="text-xs font-bold text-green-400">ACTIVE</span></div></div></a>
+<a href="/course/6158"><div class="bg-[#0a0a0a] border border-white/5 rounded-3xl overflow-hidden active:scale-95 transition-transform duration-200 shadow-xl"><div class="h-44 w-full relative"><img src="https://i.postimg.cc/x1VgvmND/appsdv.jpg" class="w-full h-full object-cover"><div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent"></div><div class="absolute bottom-3 left-4 right-4"><span class="bg-indigo-600/90 text-white text-[10px] font-bold px-2 py-1 rounded-md mb-2 inline-block">ID: <!-- -->6158</span><h3 class="font-bold text-lg leading-tight line-clamp-2">UP APO Crash Course</h3></div></div><div class="p-4 flex justify-between items-center bg-[#111]"><span class="text-xs text-gray-400">By MADXROHITBIHAR</span><span class="text-xs font-bold text-green-400">ACTIVE</span></div></div></a>
+<a href="/course/6157"><div class="bg-[#0a0a0a] border border-white/5 rounded-3xl overflow-hidden active:scale-95 transition-transform duration-200 shadow-xl"><div class="h-44 w-full relative"><img src="https://i.postimg.cc/x1VgvmND/appsdv.jpg" class="w-full h-full object-cover"><div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent"></div><div class="absolute bottom-3 left-4 right-4"><span class="bg-indigo-600/90 text-white text-[10px] font-bold px-2 py-1 rounded-md mb-2 inline-block">ID: <!-- -->6157</span><h3 class="font-bold text-lg leading-tight line-clamp-2">Bihar APO Crash Course</h3></div></div><div class="p-4 flex justify-between items-center bg-[#111]"><span class="text-xs text-gray-400">By MADXROHITBIHAR</span><span class="text-xs font-bold text-green-400">ACTIVE</span></div></div></a>
+<a href="/course/6156"><div class="bg-[#0a0a0a] border border-white/5 rounded-3xl overflow-hidden active:scale-95 transition-transform duration-200 shadow-xl"><div class="h-44 w-full relative"><img src="https://i.postimg.cc/x1VgvmND/appsdv.jpg" class="w-full h-full object-cover"><div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent"></div><div class="absolute bottom-3 left-4 right-4"><span class="bg-indigo-600/90 text-white text-[10px] font-bold px-2 py-1 rounded-md mb-2 inline-block">ID: <!-- -->6156</span><h3 class="font-bold text-lg leading-tight line-clamp-2">UPSC CSAT Test Series</h3></div></div><div class="p-4 flex justify-between items-center bg-[#111]"><span class="text-xs text-gray-400">By MADXROHITBIHAR</span><span class="text-xs font-bold text-green-400">ACTIVE</span></div></div></a>
+<a href="/course/6152"><div class="bg-[#0a0a0a] border border-white/5 rounded-3xl overflow-hidden active:scale-95 transition-transform duration-200 shadow-xl"><div class="h-44 w-full relative"><img src="https://i.postimg.cc/x1VgvmND/appsdv.jpg" class="w-full h-full object-cover"><div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent"></div><div class="absolute bottom-3 left-4 right-4"><span class="bg-indigo-600/90 text-white text-[10px] font-bold px-2 py-1 rounded-md mb-2 inline-block">ID: <!-- -->6152</span><h3 class="font-bold text-lg leading-tight line-clamp-2">MPPSC Prelims Live Foundation Course 2026 (Platinum)</h3></div></div><div class="p-4 flex justify-between items-center bg-[#111]"><span class="text-xs text-gray-400">By MADXROHITBIHAR</span><span class="text-xs font-bold text-green-400">ACTIVE</span></div></div></a>
+<a href="/course/6151"><div class="bg-[#0a0a0a] border border-white/5 rounded-3xl overflow-hidden active:scale-95 transition-transform duration-200 shadow-xl"><div class="h-44 w-full relative"><img src="https://i.postimg.cc/x1VgvmND/appsdv.jpg" class="w-full h-full object-cover"><div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent"></div><div class="absolute bottom-3 left-4 right-4"><span class="bg-indigo-600/90 text-white text-[10px] font-bold px-2 py-1 rounded-md mb-2 inline-block">ID: <!-- -->6151</span><h3 class="font-bold text-lg leading-tight line-clamp-2">UPPSC Prelims Live Foundation Course 2026 (Platinum)</h3></div></div><div class="p-4 flex justify-between items-center bg-[#111]"><span class="text-xs text-gray-400">By MADXROHITBIHAR</span><span class="text-xs font-bold text-green-400">ACTIVE</span></div></div></a>
+<a href="/course/6150"><div class="bg-[#0a0a0a] border border-white/5 rounded-3xl overflow-hidden active:scale-95 transition-transform duration-200 shadow-xl"><div class="h-44 w-full relative"><img src="https://i.postimg.cc/x1VgvmND/appsdv.jpg" class="w-full h-full object-cover"><div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent"></div><div class="absolute bottom-3 left-4 right-4"><span class="bg-indigo-600/90 text-white text-[10px] font-bold px-2 py-1 rounded-md mb-2 inline-block">ID: <!-- -->6150</span><h3 class="font-bold text-lg leading-tight line-clamp-2">BPSC Prelims Live Foundation Course 2026 (Platinum)</h3></div></div><div class="p-4 flex justify-between items-center bg-[#111]"><span class="text-xs text-gray-400">By MADXROHITBIHAR</span><span class="text-xs font-bold text-green-400">ACTIVE</span></div></div></a>
+</div><button class="w-full mt-8 py-4 rounded-2xl bg-[#111] border border-white/10 text-gray-400 font-bold active:bg-[#222]">Load More Batches</button></main></div></body></html>
